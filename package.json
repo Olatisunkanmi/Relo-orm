@@ -1,0 +1,30 @@
+{
+  "name": "xl-orm",
+  "description": "A simple ORM for connection to MYSQL and mongoDB databases",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olatisunkanmi/xlORM.git"
+  },
+  "keywords": [
+    "orm",
+    "node.js",
+    "typescript"
+  ],
+  "author": "Olatisunkanmi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Olatisunkanmi/xlORM/issues"
+  },
+  "homepage": "https://github.com/Olatisunkanmi/xlORM#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.2"
+  }
+}
