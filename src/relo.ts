@@ -1,9 +1,9 @@
 interface options {
-    database?: string;
-    username?: string;
-    password?: string;
-    options?: object;
-    uri?: string;
+  database?: string;
+  username?: string;
+  password?: string;
+  options?: object;
+  uri?: string;
 }
 
 export class Relo {
@@ -17,8 +17,8 @@ export class Relo {
    * @param {object} [options] - The options of the database.
    * @param {string} [uri] - The uri of the database.
    */
- constructor(...args: any[]){
+  constructor(...args: any[]) {
     console.log("Relo constructor called");
     console.log(args);
- }
+  }
 }

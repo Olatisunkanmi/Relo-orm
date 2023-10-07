@@ -7,7 +7,7 @@
  */
 
 /** Exports the xl sequelize point. */
-const { Relo } = require("./reno");
+import { Relo } from "./relo";
 
 
 /** Exports the xl sequelize point. */
