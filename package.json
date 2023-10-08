@@ -9,6 +9,11 @@
   "scripts": {
     "test": "jest"
   },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      ""
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Olatisunkanmi/xlORM.git"
@@ -34,5 +39,8 @@
     "chai": "^4.3.10",
     "jest": "^29.7.0",
     "ts-jest": "^29.1.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
   }
 }
