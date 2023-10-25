@@ -4,7 +4,14 @@ export interface Connection {
   uuid?: string;
 }
 
+export interface ConnectionManagerConstructor {
+  new (relo: Relo): ConnectionManager;
+}
+
+
+
 export abstract class ConnectionManager {
+
   //connect instance of Relo to database
   protected async _connect(config: ConnectionOptions): Promise<Connection> {
     console.log("Connecting to database...");

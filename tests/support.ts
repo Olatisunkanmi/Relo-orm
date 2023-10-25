@@ -5,6 +5,7 @@ import "jest";
 import { constants } from "../src/utils";
 import { get } from "node:https";
 
+export { ConnectionManager } from "../src/abstracts/connection-manager";
 export { Relo } from "../src/relo";
 
 export function getTestDialect(): string {

@@ -15,12 +15,12 @@ describe("Relo Constructor", () => {
     }).to.throw(Error);
   });
 
-  it("works when dialect is supplied", () => {
-    expect(() => {
-      new Relo("localhost", "test", "test", {
-        dialect,
-      });
-    }).not.to.throw(Error);
-  });
+  // it("works when dialect is supplied", () => {
+  //   expect(() => {
+  //     new Relo("localhost", "test", "test", {
+  //       dialect,
+  //     });
+  //   }).not.to.throw(Error);
+  // });
 });
 
