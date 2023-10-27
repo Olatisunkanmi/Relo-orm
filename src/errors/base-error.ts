@@ -17,11 +17,10 @@ export class BaseError extends Error {
    * @param {object} [options] - The options of the error.
    * @memberof BaseError
    */
-    constructor(message: string, cause?: any, options?: object) {
+  constructor(message: string, cause?: any, options?: object) {
     super(message);
     this.cause = cause;
     this.options = options;
-    
-    }
-
+    this.name = "ReloBaseError";
+  }
 }
