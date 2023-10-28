@@ -2,6 +2,14 @@
     "presets": [
       "@babel/preset-env",
       "@babel/preset-typescript"
+    ],
+    "overrides": [
+      {
+        "test": ["tests/**/*.ts", "tests/**/*.tsx"],
+        "plugins": [
+          ["@babel/plugin-transform-typescript", { "allowDeclareFields": true }]
+        ]
+      }
     ]
   }
   
