@@ -11,7 +11,7 @@ describe('Connection Manager', () => {
         
         
         const connection = await relo.connect();
-        
+        expect(typeof connection).toBe("object");
         expect(connection).toBeDefined();
     });
 });
