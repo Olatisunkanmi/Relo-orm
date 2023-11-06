@@ -6,11 +6,15 @@ describe('Connection Manager', () => {
        const relo = new Relo("mysql", "root", "@Olasunkanmi1", {
             "host": "localhost",
             "port": 3306,
-            "database": "kulture",
+            // "database": "kulture",
             });
         
-        
         const connection = await relo.connect();
+
+        //create Table 
+        
+
+        console.log(connection);
         expect(typeof connection).toBe("object");
         expect(connection).toBeDefined();
     });

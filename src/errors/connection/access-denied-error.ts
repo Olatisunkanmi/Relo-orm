@@ -9,6 +9,7 @@ export class AccessDeniedError extends Error  {
     super(message);
     this.name = "ReloAccessDeniedError";
     this.message = message ?? "Access denied for user";
+  
     // this.stack = "";
   }
 }
