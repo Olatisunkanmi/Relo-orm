@@ -3,14 +3,6 @@ import { AccessDeniedError } from "../errors";
 import mysql from "mysql2";
 import { type } from "os";
 
-// export interface Connection {
-//   uuid?: string;
-// }
-
-// export interface ConnectionManagerConstructor {
-//   new (relo: Relo): ConnectionManager;
-// }
-
 export abstract class ConnectionIndex {
   protected connection: any;
 
